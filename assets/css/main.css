@@ -1721,7 +1721,6 @@ h1 {
 
 .headline-wrapper {
   position: relative;
-  display: inline-block; /* keeps wrapper only as wide as the headline */
   text-align: center;
   display: block;      /* fills container width */  
   max-width: 80%;      /* optional: don’t go full screen */
@@ -1733,6 +1732,7 @@ h1 {
   margin: 1rem 0; /* adjust spacing */
   font-weight: 300; /* thin */
 }
+
 
 
 
