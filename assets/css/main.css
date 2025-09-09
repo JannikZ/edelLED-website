@@ -1698,13 +1698,13 @@ h1 {
 /* Linie oberhalb des H1 */
 .line-top {
   top: calc(25% - 1em); /* 2em oberhalb H1, anpassen nach Wunsch */
-  animation: growHoriz 5s forwards;
+  animation: growHoriz 5s forwards 0.2s;
 }
 
 /* Linie unterhalb des H1 */
 .line-bottom {
   top: calc(75% + 1em); /* 2em unterhalb H1, anpassen nach Wunsch */
-  animation: growHoriz 5s forwards 0.2s; /* kleine Verzögerung */
+  animation: growHoriz 5s forwards 0.4s; /* kleine Verzögerung */
 }
 
 /* Animation von der Mitte nach außen */
@@ -1732,6 +1732,7 @@ h1 {
   margin: 1rem 0; /* adjust spacing */
   font-weight: 300; /* thin */
 }
+
 
 
 
