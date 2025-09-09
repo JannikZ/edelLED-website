@@ -1689,6 +1689,7 @@ h1 {
   height: 2px;
   background: #f2e068; /* Neon-Grün */
   left: 50%;
+  transform: translateX(-50%); /* center the line at start */
   width: 0;
   box-shadow: 0 0 8px #f2e068, 0 0 16px #f2e068; /* Glow */
   z-index: 10;
@@ -1702,7 +1703,7 @@ h1 {
 
 /* Linie unterhalb des H1 */
 .line-bottom {
-  top: calc(35% + 1em); /* 2em unterhalb H1, anpassen nach Wunsch */
+  top: calc(75% + 1em); /* 2em unterhalb H1, anpassen nach Wunsch */
   animation: growHoriz 5s forwards 0.2s; /* kleine Verzögerung */
 }
 
@@ -1710,10 +1711,23 @@ h1 {
 @keyframes growHoriz {
   0% {
     width: 0;
-    transform: translateX(0);
+    transform: translateX(-50%); /* centered at start */
   }
   100% {
-    width: 80vw; /* Endbreite, anpassen nach Wunsch */
-    transform: translateX(-40vw);
+    width: 100%;       /* fills wrapper width */
+    transform: translateX(-50%); /* keeps it centered */
   }
+}
+
+.headline-wrapper {
+  position: relative;
+  display: inline-block; /* keeps wrapper only as wide as the headline */
+  text-align: center;
+  display: block;      /* fills container width */
+
+}
+
+.headline-wrapper h1 {
+  margin: 1rem 0; /* adjust spacing */
+  font-weight: 300; /* thin */
 }
