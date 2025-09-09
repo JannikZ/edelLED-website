@@ -1672,7 +1672,7 @@ h1 {
 }
 
 #header .logo img {
-    max-width: 80px;        /* oder so, anpassen */
+    max-width: 120px;        /* oder so, anpassen */
     height: auto;
     display: block;
 }
@@ -1722,21 +1722,12 @@ h1 {
 .headline-wrapper {
   position: relative;
   text-align: center;
-  display: block;      /* fills container width */  
-  max-width: 97%;      /* optional: don’t go full screen */
+  display: block;      /* fills container width */
+  max-width: 95%;      /* optional: don’t go full screen */
   margin: 0 auto;      /* center it horizontally */
-
 }
 
 .headline-wrapper h1 {
   margin: 1rem 0; /* adjust spacing */
   font-weight: 300; /* thin */
 }
-
-
-
-
-
-
-
-
