@@ -1723,7 +1723,7 @@ h1 {
   position: relative;
   text-align: center;
   display: block;      /* fills container width */  
-  max-width: 80%;      /* optional: don’t go full screen */
+  max-width: 95%;      /* optional: don’t go full screen */
   margin: 0 auto;      /* center it horizontally */
 
 }
@@ -1732,6 +1732,7 @@ h1 {
   margin: 1rem 0; /* adjust spacing */
   font-weight: 300; /* thin */
 }
+
 
 
 
