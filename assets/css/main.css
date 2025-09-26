@@ -23,6 +23,7 @@
        url('../webfonts/SourceSans3-LightItalic.woff') format('woff');
   font-weight: 300;
   font-style: italic;
+  font-display: swap;
 }
 
 /* Source Sans 3 - Roman (400) */
@@ -32,6 +33,7 @@
        url('../webfonts/SourceSans3-Roman.woff') format('woff');
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 
 /* Source Sans 3 - Italic (400 italic) */
@@ -41,6 +43,7 @@
        url('../webfonts/SourceSans3-Italic.woff') format('woff');
   font-weight: 400;
   font-style: italic;
+  font-display: swap;
 }
 
 /* Source Sans 3 - SemiBold (600) */
@@ -50,6 +53,7 @@
        url('../webfonts/SourceSans3-SemiBold.woff') format('woff');
   font-weight: 600;
   font-style: normal;
+  font-display: swap;
 }
 
 /* Source Sans 3 - SemiBold Italic (600 italic) */
@@ -59,6 +63,7 @@
        url('../webfonts/SourceSans3-SemiBoldItalic.woff') format('woff');
   font-weight: 600;
   font-style: italic;
+  font-display: swap;
 }
 
 
@@ -1196,9 +1201,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
 			z-index: 2;
 		}
 
