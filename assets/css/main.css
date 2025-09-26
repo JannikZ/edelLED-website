@@ -90,10 +90,6 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
-body {
-  visibility: visible;
-  color: #fff;        /* normale Textfarbe */
-}
 
 body {
 	line-height: 1;
@@ -2314,5 +2310,6 @@ video.active {
     display: block; /* macht Zeilenumbruch */
   }
 }
+
 
 
