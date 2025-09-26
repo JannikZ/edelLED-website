@@ -28,7 +28,17 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 
-
+  <!-- Kritische CSS inline (z.B. Schriftfamilie, Background, Header) -->
+<style>
+  html, body {
+    background: #000;   /* sofort schwarzer Hintergrund */
+    color: #000;        /* Text wie Hintergrund */
+    visibility: hidden; /* versteckt alle Inhalte */
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+</style>
 
   <!-- Haupt-CSS: blockiert das Rendering nicht mehr -->
   <link rel="stylesheet" href="assets/css/main.css" media="print" onload="this.media='all'">
