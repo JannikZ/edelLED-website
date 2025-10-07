@@ -7,6 +7,9 @@
 <html>
 	<head>
 
+
+
+
 		<!-- Titel der Vorschau -->
   <meta property="og:title" content="edelLED – Professional addressable LED lighting">
   
@@ -35,16 +38,19 @@
 	<body class="is-preload">
 
   <!-- Language Switcher -->
-<div class="lang-switch">
+<div class="lang-switch hidden">
   <a href="https://edelled.de">DE</a> | 
   <a href="https://edelled.com" class="active">EN</a>
 </div>
+
 
 		<!-- Wrapper -->
 			<div id="wrapper">
 
 				<!-- Header -->
 <header id="header">
+
+
   <div class="logo">
     <img src="assets/images/Logo_White.png" alt="edelLED Logo">
   </div>
@@ -63,6 +69,9 @@
         and stunning visual appeal to every corner of your kitchen.
       </p>
     </div>
+
+
+
   </div>
   <nav>
     <ul>
@@ -91,6 +100,8 @@
 
 <p>Welcome to edelLED, where technology meets modern kitchen design. We specialize in addressable LED lighting solutions that are tailored to your space, your style, and your lifestyle. From subtle under-cabinet glow to fully programmable color animations, we transform ordinary kitchens into visually stunning, functional spaces.</a></p>
 								<p>Our goal is simple: deliver high-quality lighting that works perfectly, looks incredible, and integrates seamlessly into your smart home ecosystem. With edelLED, your kitchen isn’t just a place to cook — it becomes a centerpiece of innovation, ambiance and comfort.</p>
+
+
 							</article>
 
 						<!-- Products -->
@@ -715,8 +726,15 @@ ledCards.forEach(card => {
 
 
 
+<!-- Language Switcher -->
 
-
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    setTimeout(function() {
+      document.querySelector(".lang-switch").classList.remove("hidden");
+    }, 2000);
+  });
+</script>
 
 
 
